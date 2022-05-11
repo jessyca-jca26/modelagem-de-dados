@@ -22,3 +22,9 @@ CREATE TABLE produtos(
 
 
 );
+
+## Alterando a tabela para criar um relacionamento através da chave estrangeira
+ALTER TABLE produtos
+    ADD CONSTRAINT fk_produtos_fabricantes
+    FOREIGN KEY (fabricante_id) REFERENCES fabricantes (id);
+
