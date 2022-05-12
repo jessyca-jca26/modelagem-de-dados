@@ -1,4 +1,4 @@
-# Comandos SQL para moelagem fisica
+# Comandos SQL para modelagem fisica
 
 ## Criar Bancos de dados
 CREATE DATABASE vendas_jessica CHARACTER SET utf8mb4;
@@ -12,6 +12,7 @@ CREATE TABLE fabricantes(
     nome VARCHAR(45) NOT NULL
 );
 
+## Criar tabela de produtos
 CREATE TABLE produtos(
     id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(45) NOT NULL,
